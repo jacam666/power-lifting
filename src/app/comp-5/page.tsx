@@ -12,7 +12,7 @@ export default function Comp5Page() {
                 </Link>
 
                 <div className="text-center mb-6 my-8">
-                    <h1 className="text-4xl font-bold text-white">"Comp Name Here"</h1>
+                    <h1 className="text-4xl font-bold text-white">Comp Name Here</h1>
                     <p className="text-lg text-white">Date: June 15, 2024</p>
                     <p className="text-lg text-white">Location: ????????</p>
                     <p className="text-lg text-white">Description: Cole kicks ass again.</p>
