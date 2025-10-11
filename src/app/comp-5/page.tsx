@@ -21,21 +21,21 @@ export default function Comp5Page() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
                 <div>
                     <h2 className="text-3xl font-bold text-center my-4 text-white">Squat</h2>
-                    <video width="400" controls>
+                    <video width="400" controls poster="/images/june-2024-comp-thumb.png" preload="metadata">
                         <source src="/videos/june-2024-comp.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div>
                     <h2 className="text-3xl font-bold text-center my-4 text-white">Bench</h2>
-                    <video width="400" controls>
+                    <video width="400" controls poster="/images/june-2024-comp-4-thumb.png" preload="metadata">
                         <source src="/videos/june-2024-comp-4.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div>
                     <h2 className="text-3xl font-bold text-center my-4 text-white">Deadlift</h2>
-                    <video width="400" controls>
+                    <video width="400" controls poster="/images/june-2024-comp-2-thumb.png" preload="metadata">
                         <source src="/videos/june-2024-comp-2.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
@@ -43,7 +43,7 @@ export default function Comp5Page() {
             </div>
             <div>
                 <h2 className="text-3xl font-bold text-center my-4 text-white">Presentation</h2>
-                <video width="400" controls>
+                <video width="400" controls poster="/images/june-2024-comp-3-thumb.png" preload="metadata">
                     <source src="/videos/june-2024-comp-3.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
