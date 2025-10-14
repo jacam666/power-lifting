@@ -15,22 +15,34 @@ export default function Home() {
         🏋️‍♀️ Coles Power Lifting 🏋️‍♀️
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 pb-8 max-w-6xl">
-        <div className="bg-black text-white p-4 rounded shadow">
-          <h2 className="text-xl font-bold">1st comp</h2>
-          <p>Details about the 1st competition go here.</p>
-        </div>
-        <div className="bg-black text-white p-4 rounded shadow">
-          <h2 className="text-xl font-bold"> 2nd comp</h2>
-          <p>Details about the 2nd competition go here.</p>
-        </div>
-        <div className="bg-black text-white p-4 rounded shadow">
-          <h2 className="text-xl font-bold">3rd comp</h2>
-          <p>Details about the 3rd competition go here.</p>
-        </div>
-        <div className="bg-black text-white p-4 rounded shadow">
-          <h2 className="text-xl font-bold">4th comp</h2>
-          <p>Details about the 4th competition go here.</p>
-        </div>
+        <Link href="/comp-1">
+          <div className="bg-black text-white p-4 rounded shadow">
+            <h2 className="text-xl font-bold">1st comp</h2>
+            <p>Details about the 1st competition go here.</p>
+            <p>Date: ??????</p>
+          </div>
+        </Link>
+        <Link href="/comp-2">
+          <div className="bg-black text-white p-4 rounded shadow">
+            <h2 className="text-xl font-bold">2nd comp</h2>
+            <p>Details about the 2nd competition go here.</p>
+            <p>Date: ??????</p>
+          </div>
+        </Link>
+        <Link href="/comp-3">
+          <div className="bg-black text-white p-4 rounded shadow">
+            <h2 className="text-xl font-bold">3rd comp</h2>
+            <p>Details about the 3rd competition go here.</p>
+            <p>Date: ??????</p>
+          </div>
+        </Link>
+        <Link href="/comp-4">
+          <div className="bg-black text-white p-4 rounded shadow">
+            <h2 className="text-xl font-bold">4th comp</h2>
+            <p>Details about the 4th competition go here.</p>
+            <p>Date: ??????</p>
+          </div>
+        </Link>
         <Link href="/comp-5">
           <div className="bg-black text-white p-4 rounded shadow">
             <h2 className="text-xl font-bold">5th comp</h2>
@@ -38,11 +50,14 @@ export default function Home() {
             <p>Date: June 15 2024</p>
           </div>
         </Link>
-        <div className="bg-black text-white p-4 rounded shadow">
-          <h2 className="text-xl font-bold">6th comp</h2>
-          <p>Details about the 6th competition go here.</p>
-        </div>
+        <Link href="/comp-6">
+          <div className="bg-black text-white p-4 rounded shadow">
+            <h2 className="text-xl font-bold">6th comp</h2>
+            <p>Details about the 6th competition go here.</p>
+            <p>Date: ??????</p>
+          </div>
+        </Link>
       </div>
-    </div>
+    </div >
   );
 }
